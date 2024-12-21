@@ -1,0 +1,99 @@
+.About-us{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.about-img{
+    height: 450px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 40px;
+
+}
+
+.navbar-brand{
+    font-family: "Hind", serif;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.nav-item{
+    margin-right: 90px;
+}
+.nav-button{
+    border: none;
+    /* padding-right: 50px; */
+}
+.ri-cup-fill{
+    padding-left: 5px;
+}
+
+.nav-button:hover{
+    background-color:#ffa700;
+    padding-right: 10px;
+    border-radius: 10px;
+
+}
+.about-us-text {
+    padding-right: 50px;
+    margin-top: 100px;
+
+}
+.about-us-text p{
+    padding-right: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+
+    height: 100px;
+    width: 200px;
+
+}
+
+@keyframes popUp {
+    0% {
+      transform: scale(0.5); /* Start smaller */
+      opacity: 0; /* Fully transparent */
+    }
+    50% {
+      transform: scale(1.2); /* Slightly larger than normal */
+      opacity: 0.8; /* Partially visible */
+    }
+    100% {
+      transform: scale(1); /* Normal size */
+      opacity: 1; /* Fully visible */
+    }
+  }
+  
+  /* Apply animation to the image, heading, and paragraph */
+  .about-img, .about-us-text, .about-us-text + p {
+    animation: popUp 1.2s ease-out forwards;
+    opacity: 0; /* Ensure hidden before animation starts */
+  }
+  
+  /* Optional: Add delay for text and paragraph for sequential effect */
+  .about-us-text {
+    animation-delay: 0.5s; /* Heading starts after the image */
+  }
+  
+  .about-us-text + p {
+    animation-delay: 1s; /* Paragraph starts after the heading */
+  }
+  .about-icon i {
+    font-size: 25px; 
+    margin: 0 10px; 
+    color: #333;
+  }
+.menu-section{
+    background-color: #333;
+}
+
+footer{
+  background-color: #333;
+  color: white;
+}
+
+  

@@ -1,0 +1,108 @@
+.navbar-brand{
+    font-family: "Hind", serif;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.nav-item{
+    margin-right: 90px;
+}
+.nav-button{
+    border: none;
+    /* padding-right: 50px; */
+}
+.ri-cup-fill{
+    padding-left: 5px;
+}
+
+.nav-button:hover{
+    background-color:#ffa700;
+    padding-right: 10px;
+    border-radius: 10px;
+
+}
+h3{
+    color: white;
+    margin-left: 30px;
+    margin-left: 100px;
+
+}
+h6{
+    font-family: "Hind", serif;
+  font-weight: 300;
+  font-style:italic;
+  background-color: #ffa700;
+  width:100px;
+  padding-left: 10px;
+  border-radius:10px;
+  margin-left: 50px;
+  margin-top: 230px;
+  margin-left: 150px;
+
+}
+.hero-img{
+    width: 550px;
+    height: 550px;
+    margin: 50px;
+    overflow: hidden;
+
+}
+p{
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.Order-now{
+    margin-left: 120px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffa700;
+}
+.contact-Us{
+    margin-right: 100px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #603F26;
+    border: solid 2px;
+    border-color: white;
+    color: white;
+}
+
+.menuh1{
+    color: white;
+    margin-left:650px;
+}
+
+.card{
+    border: none;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+  
+}
+body{
+    background-color: black;
+}
+.card-text{
+    margin-right: 50px;
+    width: 300px;
+    margin-left: 1px;
+}
+.card-body h2{
+    color: white;
+    padding-left:10px;
+}
+.card-body p{
+    padding-left: 20px;
+}
